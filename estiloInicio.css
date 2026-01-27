@@ -94,7 +94,7 @@ main {
 
 /* ===== RODAPÉ ===== */
 .footer-color {
-  height: 35px;
+  height: 40px;
   width: 100%;
   background: linear-gradient(90deg,
     #7a0d0d,
@@ -114,6 +114,7 @@ main {
     justify-content: center;
   }
 }
+
 
 
 
