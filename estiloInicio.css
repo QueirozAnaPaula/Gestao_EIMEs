@@ -109,11 +109,17 @@ main {
 
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
+  
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
   .cards-container {
     flex-wrap: wrap;
     justify-content: center;
   }
 }
+
 
 
 
