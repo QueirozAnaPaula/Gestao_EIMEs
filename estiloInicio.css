@@ -114,11 +114,19 @@ html, body {
     height: 100%;
     overflow: hidden;
 }
+  
+  .main { /* use a classe que você usa como container principal */
+    height: 100dvh;            /* melhor que 100vh em mobile moderno */
+    display: flex;
+    flex-direction: column;
+  }
+
   .cards-container {
     flex-wrap: wrap;
     justify-content: center;
   }
 }
+
 
 
 
